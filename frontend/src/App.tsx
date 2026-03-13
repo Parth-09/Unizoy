@@ -19,7 +19,7 @@ type Application = {
   createdAt: string;
 };
 
-const API_BASE_URL = "http://localhost:4000";
+const API_BASE_URL = "https://unizoy.onrender.com";
 
 export const App: React.FC = () => {
   const [jobs, setJobs] = useState<Job[]>([]);
