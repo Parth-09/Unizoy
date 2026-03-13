@@ -37,7 +37,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 4000
 ```
 
-Open Swagger docs at `http://localhost:4000/docs`.
+Open Swagger docs at `http://https://unizoy.netlify.app//docs`.
 
 ### 2) Frontend (React)
 
@@ -49,20 +49,13 @@ npm install
 npm run dev
 ```
 
-Open the app at `http://localhost:5173`.
-
-## Notes
-
-- The frontend is configured to call `http://localhost:4000` (see `frontend/src/App.tsx`).
-- If you deploy the backend, update the frontend `API_BASE_URL` to your deployed API URL.
-
 ## Deployment (suggested)
 
-- **Backend (FastAPI)**: Render / Railway / Fly.io
-- **Frontend (Vite)**: Netlify / Vercel
+- **Backend (FastAPI)**: Render 
+- **Frontend (Vite)**: Netlify
 
 After deployment, include:
 
-- **GitHub repo**: `<paste link>`
-- **Deployed app**: `<paste link>`
+- **GitHub repo**: `https://github.com/Parth-09/Unizoy`
+- **Deployed app**: `https://unizoy.netlify.app/`
 
