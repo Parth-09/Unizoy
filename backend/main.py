@@ -8,8 +8,8 @@ app = FastAPI(title="Unizoy Job Board API")
 
 # Allow your frontend during development
 origins = [
-    "http://localhost:5173",  # Vite dev server
-    "https://unizoy.netlify.app"
+    "http://localhost:5173",      # Vite dev server
+    "https://unizoy.netlify.app", # <- no trailing slash
 ]
 
 app.add_middleware(
