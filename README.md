@@ -34,10 +34,12 @@ cd backend
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-uvicorn main:app --reload --port $PORT
+uvicorn main:app --reload --port 4000
 ```
 
 Open Swagger docs at `https://unizoy.onrender.com/docs`.
+Currently API_BASE_URL is set to `https://unizoy.onrender.com`
+For running the application locally, change it to `http://localhost:4000`
 
 ### 2) Frontend (React)
 
