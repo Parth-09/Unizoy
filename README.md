@@ -34,10 +34,10 @@ cd backend
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-uvicorn main:app --reload --port 4000
+uvicorn main:app --reload --port $PORT
 ```
 
-Open Swagger docs at `http://https://unizoy.netlify.app//docs`.
+Open Swagger docs at `https://unizoy.onrender.com/docs`.
 
 ### 2) Frontend (React)
 
